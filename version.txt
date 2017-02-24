@@ -1,0 +1,190 @@
+# Version log
+
+v0.1
+- got connection working and initial channel reading
+
+v0.2
+- added custom command implementation
+- add/remove moderators
+
+v0.3
+- added !addquote, !quote
+- added !suggestgame, !purgegames, !suggestions
+
+v0.4
+- implemented Twitch API for current viewers list and 
+- verifying if user is a follower of the channel or not
+- completed points module
+- added !request and !skip commands
+- added !rage and !dance commands for the bot to be more lifelike
+
+v0.5
+- Bot can now read and receive WHISPERS
+- Bot will respond to commands in WHISPERS
+- Bot will now respond to the following commands in a WHISPER: !ping, !quote, !points, !roll
+- implemented initial !help command
+
+v0.6 
+- Roll any dice by using !roll #d## ie: !roll 4d20 to roll four d20's
+
+-- IDEAS --
+
+- I forget, but there was a random idea given to me today ...
+
+
+
+Last Seen
+- track users "last seen"
+
+Channel Title
+- !title <edit channel title>
+
+Request Song
+- remove points for requests
++- Request song: (limits? cost 100 tokens?)
+	!request
++- skip song
+	!skip
+- start playing YT playlist
+	!start
+- stop playing YT playlist
+	!stop
+
+Challenge Queue
++- Join queue
+	!join
++- Leave queue
+	!win
+	!lose
++- Display challenge results
+	!results
+
+Role-playing Game (Twitch MMO???)
+- followers get better loot (???)/more XP?
+- player creation costs 100 pts ()
++- user
++- race
+	human
+	elf
+	half-elf
+	dwarf
+	half-orc
+	kendred
+	goblin
+	gnome
++- class
+	barbarian
+	mage
+	fighter
+	thief
+	cleric
+	paladin
+	druid
+	peasant
+	bard
+	monk
+	ranger
+	sorcerer
++- sex
++- age
+-- religion
+	Avandra
+	Bahamut
+	Moradin
+	Pelor
+	Asmodeus
+	Bane
+	Gruumsh
+	Lolth
+	Tharizdun
+	Tiamat
+	Torog
+	Vecna
+	Zehir
+- str
+- dex
+- con
+- wis
+- int
+- xp: based off of 5e charts - https://roll20.net/compendium/dnd5e/Character%20Advancement#content
+- lvl
+	1	0
+	2	300
+	3	900
+	4	2700
+	5	6500
+-- weapons
+	dagger
+	short sword
+	long sword
+	broad sword
+	staff
+	long bow
+	cross bow
+	axe
+	mace
+	battle hammer
+	warhammer
+	brass knuckles
+	wand
+	harp
+-- money: 1 pp == 10 gp == 100 sp == 1000 cp
+--- convert game currency to channel currency
+-- spells
+	fire bolt
+	acid splash
+	burning hands
+	chill touch
+	entangle
+	faerie fire
+	find traps (??)
+	healing word (c)
+	ray of frost
+	charm (c)
+	mending (c)
+- hit points (add/remove)
+--- player duels: this will require the bot to receive whispers
+	!challenge <player>
+	!accept <player>
+	!bet <gold>
+-- solo dungeons (?)
+	!solo
+---- enemies
+--- group raids (???)
+	!raid
+--- solo training: one battle against one enemy
+	!train
+	
+/// limit player creation to users with X pts ///
+
+Werewolf game - Town of Salem
+
+Game Suggestions
++- add suggestion [x]
++- retrieve top 3 suggestions [x]
++- purge suggestions table [x]
+
+Commands
++- add command [x]
++- delete command [x]
++- modify command [x]
+
+Quotes
++- add quotes [x]
++- display quotes [x]
+
+Administration
++- add admins
++- remove admins
++- ban user
++- timeout user
+
+Channel Points/Currency
++- get user list
++- add points
++- view user's points/currency
+	!points
++- subtract points
++- points multiplier (is follower? etc)
++- mass add points
+

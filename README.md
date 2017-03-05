@@ -1,9 +1,9 @@
 All users are able to use the following commands as of v1.0
 
 !ping  
-!addquote <quote>  
+!addquote [quote]  
 !quote  
-!suggestgame <game>  
+!suggestgame [game]  
 !join  
 !results  
 !points  
@@ -11,6 +11,6 @@ All users are able to use the following commands as of v1.0
 !lurk  
 !rage  
 !help  
-!roll <xd#> example: !roll 2d20 to roll two d20 die  
+!roll [xd#] example: !roll 2d20 to roll two d20 die  
 !roulette  
 !np    

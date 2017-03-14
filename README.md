@@ -14,3 +14,4 @@ All users are able to use the following commands as of v1.0
 !roll [xd#] example: !roll 2d20 to roll two d20 die  
 !roulette  
 !np    
+!8ball    
